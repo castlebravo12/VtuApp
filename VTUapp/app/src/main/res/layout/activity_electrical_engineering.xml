@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pankaj.vtuapp.ElectricalEngineering">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="68dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#509CE4"
+                android:text="    Basic Electrical \n       Engineering"
+                android:textColor="#F3EBEB"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#FFD700"
+                android:text="               [As per CBCS scheme] \n       Subject Code: 15ELE15/15ELE25 \n                       IA Marks:20\n                Exam Time: 3 hours"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="23dp"
+            android:layout_marginTop="10dp"
+            android:text="======== \nModule 1 \n========\n1.D C Circuit(5 Hours)\n\n- Ohm's Law and Kirchoff's Law\n- Analysis of series.\n- Parallel and series circuit excited by independent voltage sources.\n-Power and Energy.\n-Illustrative Examples.\n \n2.Electromgenetism:\n\n- Review of field around a conductor and coil.\n- Magnetic flux and flux density.\n- Magnetomotive force and magnetic field intensity.\n- Reluctance and permeability.\n- Definition of magnetic circuit and basic analogy between electric and magnetic
+circuits. (These topics are not to be considered for setting the examination
+questions).\n \n3.Electromagnetic induction\n\n- Definition of Electromagnetic Induction.\n- Faradays
+Laws.\n- Fleming’s right hand rule.\n- Lenz’s Law.\n- Statically and dynamically
+induced emf.\n- Self-inductance, mutual inductance and coefficient of coupling.\n- Energy stored in magnetic field.\n- Illustrative examples. Force on current carrying
+conductor placed in a magnetic field, Fleming’s left hand rule.\nNote:Total time for both Electromagnetism and Electromagnetic Induction is 5 Hours.\n\n========\nModule2\n========\n\n4.DC Machines(7 Hours):\n\n- Working principle of DC machine as a generator and a
+motor.\n- Types and constructional features.\n- Types of armature windings.\n- Emf
+equation of generator.\n- Relation between induced emf and terminal voltage with a
+mention of brush contact drop and drop due to armature reaction.\n- Illustrative
+examples.\n- neglecting armature reaction.\n- Operation of DC motor.\n- Back emf, torque equation.\n- Types of DC motors.\n- Characteristics and applications.\n- Significance of back emf\n- Necessity of a starter
+for DC motor.\n- Illustrative examples on back emf and torque.\n\n5.Measuring Instruments(3 Hours):\n\n- Construction and Principle of operation of
+dynamometer type wattmeterand single phase induction type energy meter.\n\n=======\nModule 3\n=======\n\n6 Single-phase AC circuits(7 Hours):\n\n- Generation of sinusoidal voltage ,frequency of
+generated voltage ,definition and numerical values of average value ,root
+mean square value, form factor and peak factor of sinusoidally varying
+quantities ,phasor representation of alternating quantities.\n- Analysis, with
+phasor diagrams, of R, L, C, R-L, R-C and R-L-C circuits and, parallel and
+series- parallel circuits.\n- Real power, reactive power, apparent power and power
+factor.\n- Illustrative examples.\n\n7. Domestic Wiring(3 Hours):\n\n-Service mains.\n- Meter board and distribution board.\n-Brief discussion on
+concealed conduit wiring.\n-Two-way and three-way control.\n-Elementary
+discussion on Circuit protective devices\n-Two-way and three-way control. Elementary
+discussion on Circuit protective devices:fuse and Miniature Circuit Breaker
+(MCB’s).\n-Electric shock.\n-Precautions against shock.\n-Objectives of Earthing.\n- types of earthing: pipe and plate earthing, Residual current circuit breaker
+(RCCB).\n\n========\nModule 4\n========\n\n8 Three Phase circuits(6 Hours):\n\n- Necessity and advantages of three phase systems\n-
+generation of three phase power.\n- Definition of Phase sequence\n- Balanced
+supply and balanced load.\n-Relationship between line and phase values of
+balanced star and delta connections.\n-  Power in balanced three-phase circuits.\n- Measurement of power by two-wattmeter method.\n-Determination power factor
+using wattmeter readings.\n- Illustrative examples.\n\n 9 Three PhaseSynchronous Generators(4 Hours):\n\n-Principle of operation.\n-Types and
+constructional features.\n- Advantages of rotating field type alternator.\n-Synchronous speed.\n- Frequency of generated voltage.\n-Emf equation.\n-  Concept of
+winding factor (excluding the derivation of distribution and pitch factors).\n- Illustrative examples on calculation of distribution factor.\n- Pitch factor and emf
+equation.\n\n========\nModule 5\n========\n\n10 Single phase transformers(6 Hours):\n\n-Necessity of transformer.\n- Principle of operation and construction of singlephase
+transformers (core and shell types).\n- Emf equation, losses, variation
+losses with respect to load, efficiency,\n- Condition for maximum efficiency.\n-Voltage regulation and its significance (Open Circuit and Short circuit tests equivalent circuit and phasor diagrams are excluded).\n\n11.Three Phase Induction Motors(4 Hours): \n\n-Principle of operation.\n-Concept and
+production of rotating magnetic field, Synchronous speed, rotor speed, Slip,
+Frequency of the rotor induced emf, Types and Constructional features.\n-Slip
+and its significan.     " />
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
